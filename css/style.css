@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+} 
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 20px; /* Size of Text */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica,  sans-serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+	  float: left;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    width: 62%;
+    height:60%;
+    background-color: #f2f2f2;
+    padding: 15px;
+} 
+
+.container2 {
+	  float: left;
+    border-radius: 5px;
+    margin-left: 62px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+
+.links{
+  display: inline;
+	float: right;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  width: 15%;
+  margin-left: 100px;
+  display: inline;
+  background: #4aaaa5;
+}
+
+h3 {
+
+	font-size: 25px;
+	color: #4aaaa5;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+}
+
+h4 {
+	font-size: 17px;
+	color: #4aaaa5;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+}
+
+#image_pos {
+	float: left;
+	height: 200px;
+	width: 150px;
+	padding: 15px;
+	text-align: center;
+}
+
+#bio_font {
+	font-size: 20px;
+}
+
+#left, #middle, #right {
+	float: left;
+	width: 33.3%;
+}
+
+#about {
+	display: inline;
+	font-size: 20px;
+	margin-right: 50px;
+}
+
+#portfolio {
+	display: inline;
+	font-size: 20px;
+    margin-right: 50px;
+}
+
+#contact {
+	display: inline;
+	font-size: 20px;
+	margin-right: 50px;
+}
+
+#box {
+	height: 100px;
+	width: 100px;
+	margin:auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 100px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center
+    font-size: 15px;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#footerborder {
+  float: left;
+  overflow: auto;
+  clear: both;
+  width: 100%;
+  height: 10px;
+  margin-top: -10px;
+  margin-bottom: 14px;
+  overflow-x: hidden;
+  background-color: #4aaaa5;
+}
+
+
+footer {
+  bottom: -50px;
+  padding-top: 10px;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  color: #777777;
+  background: #ccc;
+  overflow-y: hidden;
+  clear: both;
+}
+
+@media screen and (max-width: 980px)
+    {
+      body {
+        background-color: #333;
+      }
+      .wrapper {
+        width: 100%;
+        /* Positioning */
+        margin: 40px auto;
+      }
+    }
+
+
+@media screen and (max-width: 768px)
+    {
+      body {
+        background-color: #7CFC00;  /* lawn green */
+      }
+      .wrapper {
+        width: 100%;
+        /* Positioning */
+        margin: 40px auto;
+      }
+    }
+
+@media screen and (max-width: 640px)
+    {
+      
+      header {
+        position: static;
+      }
+
+      body {
+        background-color: #ADD8E6; /* light blue */
+      }
+      .wrapper {
+        width: 100%;
+        /* Positioning */
+        margin: 40px auto;
+      }
+    }
+
+
+#main-content{
+  margin-bottom: 20px;
+} 
+
+#sidebar {
+  float: left;
+}
+
+
